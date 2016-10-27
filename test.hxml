@@ -1,0 +1,10 @@
+## Flash 9+
+-swf build/flash/release/bin/TestMain.swf
+--no-output
+-swf-version 12
+
+--next
+
+## JavaScript
+-js build/html5/release/bin/TestMain.js
+--no-output

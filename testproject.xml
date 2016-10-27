@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Test" package="com.gelert.test" version="1.0.0" company="gelert" />
+	<app file="TestMain" main="TestMain" path="build" swf-version="12.0" />
+	
+	<window background="#777777" fps="60" />
+	<window width="360" height="640" unless="mobile" />
+	<window orientation="portrait" vsync="false" antialiasing="0" if="cpp" />
+	
+	<source path="test" />
+	<source path="src" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="munit" />
+	<haxelib name="mlib" />
+	<haxelib name="hamcrest" />
+	<haxelib name="format" />
+	
+	<!--<haxedef name="testDebug" />-->
+	
+	<!-- @gelert TODO try to repair it -->
+	<assets path="assets/img" rename="img" />
+	<assets path="assets/json" rename="json" />
+	
+</project>
